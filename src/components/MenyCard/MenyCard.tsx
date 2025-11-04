@@ -1,3 +1,5 @@
+import "./MenyCard.css"
+
 interface MenyCardProps {
     tittel: string
     pris: string
@@ -6,7 +8,7 @@ interface MenyCardProps {
 }
 
 export default function MenyCard({tittel, pris, ingredienser, kategori}: MenyCardProps) {
-    return <div>
+    return <div className="meny-card">
         <h2>{tittel}</h2>
         <p>{pris}</p>
         <p>{ingredienser}</p>
