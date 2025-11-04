@@ -1,4 +1,5 @@
 import MenyCard from "../MenyCard/MenyCard"
+import "./Meny.css"
 
 type MenuItem = {
     id: number,
@@ -15,12 +16,11 @@ interface MenyProps {
 export default function Meny({ data }: MenyProps) {
     return (
         <div>
-            <ul>
+            <ul className="meny-list">
                 {data.map(item => 
-                    <MenyCard {...item}/>
+                    <MenyCard key={item.id} {...item}/>
                 )}
             </ul>
         </div>
     )
-
 }
