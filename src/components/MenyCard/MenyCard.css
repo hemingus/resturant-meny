@@ -1,0 +1,10 @@
+.meny-card {
+    background-image: radial-gradient(orange, green);
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 5px dotted blue;
+}
+
+.meny-card p {
+    color: blue;
+}
