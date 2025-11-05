@@ -1,9 +1,8 @@
 /* meny styles */
-.meny-list {
+.meny-container {
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: stretch;
-    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 3rem;
     padding: 3rem;
 }
