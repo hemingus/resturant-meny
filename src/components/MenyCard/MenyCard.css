@@ -1,10 +1,11 @@
 .meny-card {
-    background-image: radial-gradient(orange, green);
+    width: 100%;
+    background-image: linear-gradient(rgba(153, 120, 62, 0.8), rgba(117, 86, 34, 0.8));
     border-radius: 1rem;
     padding: 1rem;
-    border: 5px dotted blue;
+    border: 5px dotted rgb(99, 56, 0);
 }
 
 .meny-card p {
-    color: blue;
+    color: rgba(255, 255, 255, 0.685);
 }
