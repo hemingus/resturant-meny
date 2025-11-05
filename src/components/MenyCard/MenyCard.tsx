@@ -9,9 +9,11 @@ interface MenyCardProps {
 
 export default function MenyCard({tittel, pris, ingredienser, kategori}: MenyCardProps) {
     return <div className="meny-card">
-        <h2>{tittel}</h2>
-        <p>{pris}</p>
+        
+        <h3>{tittel}</h3>
+        
         <p>{ingredienser}</p>
-        <p>{kategori}</p>
+        <p>{pris}</p>
+        <h4>{kategori}</h4>
     </div>
 }
