@@ -2,7 +2,16 @@
 .meny-container {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 3rem;
     padding: 3rem;
+    background-color: rgb(50, 71, 33);
+    border-radius: 1rem;
+}
+
+.meny-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
 }
