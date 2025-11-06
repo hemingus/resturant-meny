@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +16,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Great Vibes', cursive;
+  font-weight: 400; /* Great Vibes only has one weight */
+  letter-spacing: 0.5px;
 }
 
 
